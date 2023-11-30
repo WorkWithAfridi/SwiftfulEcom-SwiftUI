@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF3237242B186263001CFB71 /* NavigationStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3237232B186263001CFB71 /* NavigationStateManager.swift */; };
+		EF3237262B186297001CFB71 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3237252B186296001CFB71 /* DashboardView.swift */; };
+		EF32372D2B186476001CFB71 /* AppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF32372C2B186476001CFB71 /* AppBar.swift */; };
+		EF3237312B1864E3001CFB71 /* NewArrivals.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3237302B1864E3001CFB71 /* NewArrivals.swift */; };
+		EF3237342B186C6F001CFB71 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3237332B186C6F001CFB71 /* ProfileView.swift */; };
+		EF3237372B186E8B001CFB71 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3237362B186E8B001CFB71 /* SettingView.swift */; };
+		EF3237392B187E31001CFB71 /* MaterialButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3237382B187E31001CFB71 /* MaterialButtonStyle.swift */; };
 		EF6731742AF2C83F001BEED6 /* SwiftfulEcomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6731732AF2C83F001BEED6 /* SwiftfulEcomApp.swift */; };
 		EF6731762AF2C83F001BEED6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6731752AF2C83F001BEED6 /* ContentView.swift */; };
 		EF6731782AF2C840001BEED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF6731772AF2C840001BEED6 /* Assets.xcassets */; };
@@ -25,6 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF3237232B186263001CFB71 /* NavigationStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStateManager.swift; sourceTree = "<group>"; };
+		EF3237252B186296001CFB71 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		EF32372C2B186476001CFB71 /* AppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBar.swift; sourceTree = "<group>"; };
+		EF3237302B1864E3001CFB71 /* NewArrivals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewArrivals.swift; sourceTree = "<group>"; };
+		EF3237332B186C6F001CFB71 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		EF3237362B186E8B001CFB71 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		EF3237382B187E31001CFB71 /* MaterialButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialButtonStyle.swift; sourceTree = "<group>"; };
 		EF6731702AF2C83F001BEED6 /* SwiftfulEcom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulEcom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF6731732AF2C83F001BEED6 /* SwiftfulEcomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulEcomApp.swift; sourceTree = "<group>"; };
 		EF6731752AF2C83F001BEED6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +68,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF3237222B18624E001CFB71 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EF3237232B186263001CFB71 /* NavigationStateManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		EF3237272B1863F4001CFB71 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				EF3237252B186296001CFB71 /* DashboardView.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		EF3237282B186404001CFB71 /* Homepage */ = {
+			isa = PBXGroup;
+			children = (
+				EF32372B2B186449001CFB71 /* Components */,
+				EFB4E2712AF40BF4001B40E1 /* HomePageView.swift */,
+			);
+			path = Homepage;
+			sourceTree = "<group>";
+		};
+		EF3237292B18640E001CFB71 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				EFDA7CB02AF5FAC100D2821C /* CartView.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		EF32372A2B186416001CFB71 /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+				EFDA7CB42AF6082600D2821C /* ProductsDetailsView.swift */,
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		EF32372B2B186449001CFB71 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EF6731862AF2D4A9001BEED6 /* ImageSlider.swift */,
+				EFB4E26A2AF4029D001B40E1 /* SearchView.swift */,
+				EF32372C2B186476001CFB71 /* AppBar.swift */,
+				EF3237302B1864E3001CFB71 /* NewArrivals.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		EF3237322B186C5C001CFB71 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EF3237332B186C6F001CFB71 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EF3237352B186E81001CFB71 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EF3237362B186E8B001CFB71 /* SettingView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		EF6731672AF2C83F001BEED6 = {
 			isa = PBXGroup;
 			children = (
@@ -73,12 +155,12 @@
 		EF6731722AF2C83F001BEED6 /* SwiftfulEcom */ = {
 			isa = PBXGroup;
 			children = (
+				EF3237222B18624E001CFB71 /* Managers */,
 				EF6731732AF2C83F001BEED6 /* SwiftfulEcomApp.swift */,
 				EFB4E26C2AF40414001B40E1 /* CartManager.swift */,
 				EF6731852AF2D485001BEED6 /* Components */,
 				EF6731822AF2D347001BEED6 /* Models */,
 				EFB4E2702AF40BD4001B40E1 /* Views */,
-				EF6731772AF2C840001BEED6 /* Assets.xcassets */,
 				EF6731792AF2C840001BEED6 /* Preview Content */,
 			);
 			path = SwiftfulEcom;
@@ -103,12 +185,11 @@
 		EF6731852AF2D485001BEED6 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				EF6731862AF2D4A9001BEED6 /* ImageSlider.swift */,
 				EFB4E2682AF40289001B40E1 /* ProductCardView.swift */,
 				EFB4E26E2AF40AE3001B40E1 /* CartButton.swift */,
-				EFB4E26A2AF4029D001B40E1 /* SearchView.swift */,
 				EFDA7CAE2AF5F79500D2821C /* CartProductView.swift */,
 				EFDA7CB22AF6057300D2821C /* PaymentButton.swift */,
+				EF3237382B187E31001CFB71 /* MaterialButtonStyle.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -116,10 +197,14 @@
 		EFB4E2702AF40BD4001B40E1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				EF3237352B186E81001CFB71 /* Settings */,
+				EF3237322B186C5C001CFB71 /* Profile */,
+				EF32372A2B186416001CFB71 /* ProductDetails */,
+				EF3237292B18640E001CFB71 /* Cart */,
+				EF3237282B186404001CFB71 /* Homepage */,
+				EF3237272B1863F4001CFB71 /* Dashboard */,
 				EF6731752AF2C83F001BEED6 /* ContentView.swift */,
-				EFB4E2712AF40BF4001B40E1 /* HomePageView.swift */,
-				EFDA7CB02AF5FAC100D2821C /* CartView.swift */,
-				EFDA7CB42AF6082600D2821C /* ProductsDetailsView.swift */,
+				EF6731772AF2C840001BEED6 /* Assets.xcassets */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,12 +286,19 @@
 				EFB4E26D2AF40414001B40E1 /* CartManager.swift in Sources */,
 				EFDA7CB52AF6082600D2821C /* ProductsDetailsView.swift in Sources */,
 				EF6731872AF2D4A9001BEED6 /* ImageSlider.swift in Sources */,
+				EF3237262B186297001CFB71 /* DashboardView.swift in Sources */,
+				EF3237392B187E31001CFB71 /* MaterialButtonStyle.swift in Sources */,
 				EF6731842AF2D359001BEED6 /* Product.swift in Sources */,
 				EFDA7CB12AF5FAC100D2821C /* CartView.swift in Sources */,
+				EF3237372B186E8B001CFB71 /* SettingView.swift in Sources */,
+				EF3237342B186C6F001CFB71 /* ProfileView.swift in Sources */,
 				EFDA7CAF2AF5F79500D2821C /* CartProductView.swift in Sources */,
+				EF32372D2B186476001CFB71 /* AppBar.swift in Sources */,
 				EFB4E26B2AF4029D001B40E1 /* SearchView.swift in Sources */,
+				EF3237242B186263001CFB71 /* NavigationStateManager.swift in Sources */,
 				EFB4E2722AF40BF4001B40E1 /* HomePageView.swift in Sources */,
 				EFB4E2692AF40289001B40E1 /* ProductCardView.swift in Sources */,
+				EF3237312B1864E3001CFB71 /* NewArrivals.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
